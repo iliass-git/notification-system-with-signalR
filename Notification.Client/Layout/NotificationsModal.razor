@@ -1,0 +1,17 @@
+@inject MainState LayoutState
+
+<ul>
+@foreach (var message in LayoutState.MessagesList)
+{
+    <li>@message</li>
+}
+
+<a href="" @onclick="@clearNotifications">clear all</a>
+</ul>
+
+@code {
+    private void clearNotifications()
+    {
+        LayoutState.ClearList();
+    }
+}

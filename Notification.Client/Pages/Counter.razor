@@ -1,0 +1,23 @@
+﻿@page "/counter"
+@using Microsoft.AspNetCore.SignalR.Client;
+@inject MainState LayoutState
+
+
+
+<p role="status">Current count: @LayoutState.CurrentCount</p>
+<ul>
+    @foreach (var message in LayoutState.MessagesList)
+    {
+        <li>@message</li>
+    }
+</ul>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
+
+@code
+{
+
+}
