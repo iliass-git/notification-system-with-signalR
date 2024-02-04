@@ -2,7 +2,7 @@
 
 This is a notification system written under .NET 8. It consists of a Web API that sends notifications over SignalR and a Blazor WebAssembly client that receives those notifications and displays them in toast and modal.
 
-![alt-text](https://github.com/iliass-de/notification-system-with-signalR/blob/main/Screencast%20from%2004.02.2024%2000%2028%2015.gif)
+![alt-text](https://github.com/iliass-de/notification-system-with-signalR/blob/main/ezgif-4-8fa8a57a4f.gif)
 
 ## Tools
 
